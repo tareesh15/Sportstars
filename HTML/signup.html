@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/sign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>signup</title>
+    <script src="../JAVA SCRIPT/signup.js"></script>
+</head>
+
+<body>
+    <div class="hea">
+        <header>
+            <h1><img src="../Media/Logo.png" alt="">SPOTSTAR</h1>
+        </header>
+    </div>
+    <div class="content">
+    <div class="sign">
+        <div class="logo">
+        <p id="err"></p>
+        <h1>SPORTSTAR-SIGN UP</h1>
+        </div>
+        <input type="text" placeholder="FIRST NAME">
+        <input type="text" placeholder="LAST NAME">
+        <input type="number" placeholder="PHONE NUMBER" id="phone_no">
+        <input type="email" placeholder="MAIL ID" id="mail">
+        <input type="password" placeholder="PASSWORD" id="pass">
+        
+        <input type="password" placeholder="CONFORM PASSWORD" id="rpass">
+        <div id="button">
+            <button class="cancel"><a href="../index.html" ><strong>CANCEL</strong></a></button>
+            <button onclick="signup()" class="next"><strong>NEXT</strong></button>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>

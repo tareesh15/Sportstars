@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.hea{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 84, 84);
+    padding: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.hea img{
+    border-radius: 50px;
+    width: 30px;
+}
+h1{
+    color: greenyellow;
+}
+.verify{
+    background-image:linear-gradient(to top,rgb(0, 0, 0),rgb(0, 0, 255));
+    margin-top: 100px;
+    padding:80px; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.logo h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.otp input{
+    border-radius:50px ;
+    height: 20px ;
+    padding-left: 10px;
+}
+
+.verif button{
+    width: 80px;
+    margin:10px 40px;
+    border-radius: 100px;
+}
+.verif a{
+    text-decoration: none;
+    color:black
+}
+.resent a{
+    text-decoration: none;
+    color: black;
+}
+.resent button{
+    width: 120px;
+    margin:10px 20px;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    margin-left: 20px;
+}

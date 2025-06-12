@@ -1,0 +1,44 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.hea{
+    color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 84, 84);
+    padding: 30px;
+}
+.hea img{
+    border-radius: 50px;
+    width: 30px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+.logout{
+    margin-left: 100%;
+}
+table img{
+    margin-top: 50px;
+   max-width: 100%; 
+    height:auto;
+    border-radius: 20%;
+}
+th{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    color: gray;
+    padding: 10px;
+}

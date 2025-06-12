@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.hea{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 84, 84);
+    padding: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.hea img{
+    border-radius: 50px;
+    width: 30px;
+}
+.sign{
+    background-image:linear-gradient(to top,rgb(7, 7, 7),rgb(9, 9, 238));
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 50px;
+}
+.logo h1 {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(222, 38, 28);
+    text-align: center;
+    }
+
+.sign input{
+    border-radius: 10px;
+    margin: 10px 0px 10px 10px;
+    height: 30px;
+    width: 250px;
+    padding-left:10px ;
+    margin-left: 40px;
+}
+.e1,.e2{
+    position: absolute;
+    padding-left: 300px;
+    top:405px;
+}
+.e2{
+    top:456px;
+}
+button{
+    border-radius: 10px;
+    width:80px;
+    margin-top: 10px;
+}
+.cancel a{
+    text-decoration: none;
+    color: black;
+}
+.next{
+    margin-left: 40%;
+}

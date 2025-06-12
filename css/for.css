@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.logo h1 {
+    text-shadow: 5px 5px 5px rgb(222, 38, 28);
+    color: white;
+    }
+.hea{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 84, 84);
+    padding: 30px;
+}
+.hea img{
+    border-radius: 50px;
+    width: 30px;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    background-image:linear-gradient(to top,rgb(0, 0, 0),rgb(31, 25, 225));
+    margin: 100px 30%;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+.send,input{
+    margin:10px;
+}
+.send a{
+    text-decoration: none;
+    color: black;
+}

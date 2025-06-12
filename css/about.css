@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.hea h1{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 84, 84);
+    padding: 30px;
+}
+.hea img{
+    border-radius: 50%;
+    width: 30px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+p{
+    color:white;
+    text-align: justify;
+}
+button{
+    margin-left:50% ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color:white;
+}
